@@ -362,7 +362,7 @@ player:AddToggle(
 
 player:AddToggle(
     {
-	Name = "Walkspeed Toggle",
+	Name = "切换速度",
 	Callback = function(c)
 		getgenv().cframespeed = c
 		f()
@@ -372,7 +372,7 @@ player:AddToggle(
 
 player:AddToggle(
     {
-	Name = 'Fast Revive',
+	Name = '快速救人',
 	Callback = function(fastrev)
 		getgenv().far = fastrev
 		if getgenv().far then
