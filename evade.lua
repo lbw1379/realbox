@@ -258,14 +258,14 @@ local lib =
 local main =
     lib:CreateTab(
     {
-	Name = "Main"
+	Name = "菜单"
 }
 )
 
 local mesc =
     lib:CreateTab(
     {
-	Name = "Visuals"
+	Name = "透视"
 }
 )
 
@@ -296,7 +296,7 @@ local settings =
 local map =
     main:CreateSection(
     {
-	Name = "Map",
+	Name = "地图",
 	Side = "Right"
 }
 )
@@ -312,7 +312,7 @@ local troll =
 local farm =
     main:CreateSection(
     {
-	Name = "AutoFarms",
+	Name = "挂机功能",
 	Side = "Left"
 }
 )
@@ -435,10 +435,10 @@ player:AddButton(
 
 settings:AddSlider(
     {
-	Name = "加速（无效）",
+	Name = "加速（可能失效）",
 	Value = 0,
-	Min = 0,
-	Max = 2,
+	Min = 3,
+	Max = 5,
 	Callback = function(ws)
 		getgenv().cfspeed = ws
 	end
@@ -493,7 +493,7 @@ map:AddButton(
 		makeNotification(
                 "Info",
                 "dot.hub | Map",
-                '回合将在结束 ' .. game.Players.LocalPlayer.PlayerGui:WaitForChild("HUD").Center.Vote.Info.Read.Timer.Text
+                '回合结束将在 ' .. game.Players.LocalPlayer.PlayerGui:WaitForChild("HUD").Center.Vote.Info.Read.Timer.Text
             )
 	end
 }
