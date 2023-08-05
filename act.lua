@@ -1,5 +1,4 @@
---为什么要盗脚本？
-​local​ Script_Title ​=​ `Arceus X ​<​font color​=​"​rgb(255, 0, 0)​"​>​|​</​font​>​ Aimbot` 
+local​ Script_Title ​=​ `Arceus X ​<​font color​=​"​rgb(255, 0, 0)​"​>​|​</​font​>​ Aimbot` 
   
  ​--​ Instances: 
  ​local​ Arceus ​=​ Instance.​new​(​"​ScreenGui​"​) 
