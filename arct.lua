@@ -1,4 +1,4 @@
-
+-- arct
 ​local​ Script_Title ​=​ `Arceus X ​<​font color​=​"​rgb(255, 0, 0)​"​>​|​</​font​>​ Aimbot` 
   
  ​--​ Instances: 
