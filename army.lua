@@ -564,7 +564,7 @@ AZY["49"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 AZY["49"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 AZY["49"]["Size"] = UDim2.new(0.2588447332382202, 0, 0.0958060473203659, 0);
 AZY["49"]["Name"] = [[Aimbot]];
-AZY["49"]["Text"] = [[AimBot]];
+AZY["49"]["Text"] = [[云脚本]];
 AZY["49"]["Position"] = UDim2.new(0.04600000008940697, 0, 0.5989999771118164, 0);
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Home.HaxPage.Scripts.Aimbot.UICorner
@@ -2125,7 +2125,7 @@ AZY["fc"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 AZY["fc"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 AZY["fc"]["Size"] = UDim2.new(0.2280000001192093, 0, 0.09600000083446503, 0);
 AZY["fc"]["Name"] = [[Aimbot]];
-AZY["fc"]["Text"] = [[       AimBot]];
+AZY["fc"]["Text"] = [[       云脚本]];
 AZY["fc"]["Position"] = UDim2.new(0.030552715063095093, 0, 0.3302992284297943, 0);
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.BuiltInHax.Scripts.Aimbot.UICorner
@@ -4463,7 +4463,7 @@ task.spawn(C_43);
 local function C_4b()
 	local script = AZY["4b"];
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20Aimbot.lua"))()
+		+loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/6666666666/main/%E4%BA%91%E8%84%9A%E6%9C%AC%E6%B5%8B%E8%AF%95%E7%89%88%E4%BA%91%E8%84%9A%E6%9C%AC%E6%B5%8B%E8%AF%95%E7%89%88Xiao%20Yun.lua", true))()
 	end)
 end;
 task.spawn(C_4b);
