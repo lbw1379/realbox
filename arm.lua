@@ -113,7 +113,7 @@ AZY["e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]]
 AZY["e"]["TextSize"] = 45;
 AZY["e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 AZY["e"]["Size"] = UDim2.new(0.624912440776825, 0, 0.12905988097190857, 0);
-AZY["e"]["Text"] = [[Welcome to Arceus X 3.0!]];
+AZY["e"]["Text"] = [[141ghost修改]];
 AZY["e"]["Name"] = [[Title]];
 AZY["e"]["BackgroundTransparency"] = 1;
 AZY["e"]["Position"] = UDim2.new(0.1773233860731125, 0, 0.011320043355226517, 0);
@@ -169,7 +169,7 @@ AZY["16"]["TextTransparency"] = 1;
 AZY["16"]["TextSize"] = 50;
 AZY["16"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 AZY["16"]["Size"] = UDim2.new(0.13893571496009827, 0, 0.09271523356437683, 0);
-AZY["16"]["Text"] = [[Arceus X]];
+AZY["16"]["Text"] = [[141ghost]];
 AZY["16"]["Name"] = [[NameLogo]];
 AZY["16"]["Visible"] = false;
 AZY["16"]["BackgroundTransparency"] = 1;
@@ -226,7 +226,7 @@ AZY["1e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 AZY["1e"]["TextSize"] = 85;
 AZY["1e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 AZY["1e"]["Size"] = UDim2.new(0.1371736377477646, 0, 0.6307170391082764, 0);
-AZY["1e"]["Text"] = [[Arceus X]];
+AZY["1e"]["Text"] = [[141ghost]];
 AZY["1e"]["Name"] = [[TextLogo]];
 AZY["1e"]["BackgroundTransparency"] = 1;
 AZY["1e"]["Position"] = UDim2.new(0.4679349362850189, 0, 0.16660596430301666, 0);
@@ -258,7 +258,7 @@ AZY["22"]["Position"] = UDim2.new(0.8481356501579285, 0, -0.024522678926587105, 
 AZY["22"]["BackgroundTransparency"] = 1;
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Panel.Expand.LocalScript
-AZY["23"] = Instance.new("LocalScript", AZY["22"]);
+AZY["23"] = Instance.new("LocalScript", AZ
 
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Panel.TimeLeft
@@ -664,7 +664,7 @@ AZY["58"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 AZY["58"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 AZY["58"]["Size"] = UDim2.new(0.2588447332382202, 0, 0.0958060473203659, 0);
 AZY["58"]["Name"] = [[IY]];
-AZY["58"]["Text"] = [[Infinite Yield]];
+AZY["58"]["Text"] = [[穿墙]];
 AZY["58"]["Position"] = UDim2.new(0.04595530033111572, 0, 0.13954126834869385, 0);
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Home.HaxPage.Scripts.IY.UICorner
@@ -2275,7 +2275,7 @@ AZY["110"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json
 AZY["110"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 AZY["110"]["Size"] = UDim2.new(0.22804169356822968, 0, 0.0958060473203659, 0);
 AZY["110"]["Name"] = [[IY]];
-AZY["110"]["Text"] = [[  Infinite Yield]];
+AZY["110"]["Text"] = [[  穿墙]];
 AZY["110"]["Position"] = UDim2.new(0.03485134616494179, 0, 0.04589534550905228, 0);
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.BuiltInHax.Scripts.IY.UICorner
@@ -4127,8 +4127,7 @@ local function C_9()
 	We are thrilled to have your collaboration and to offer you the opportunity
 	to try out the new features we are developing.
 	
-	We are confident that your experience and creativity will help us make
-	Arceus X an even more effective and user-friendly application.
+	We are confident that your experience and creativity will help us  an even more effective and user-friendly application.
 	Please feel free to share any feedback and suggestions that can help us further
 	improve our platform.
 	
@@ -4510,15 +4509,14 @@ task.spawn(C_54);
 local function C_57()
 	local script = AZY["57"];
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20Fly.lua"))()
-	end)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20Fly.lua"))
 end;
 task.spawn(C_57);
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Home.HaxPage.Scripts.IY.LocalScript
 local function C_5a()
 	local script = AZY["5a"];
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/lbw1379/realbox/main/noclip.lua"+))()
 	end)
 end;
 task.spawn(C_5a);
