@@ -603,8 +603,8 @@ AZY["4f"]["TextSize"] = 11;
 AZY["4f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 AZY["4f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 AZY["4f"]["Size"] = UDim2.new(0.2588447332382202, 0, 0.0958060473203659, 0);
-AZY["4f"]["Name"] = [[Dex]];
-AZY["4f"]["Text"] = [[DEX Explorer]];
+AZY["4f"]["Name"] = [[fly]];
+AZY["4f"]["Text"] = [[飞行]];
 AZY["4f"]["Position"] = UDim2.new(0.04600000008940697, 0, 0.2564218044281006, 0);
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Home.HaxPage.Scripts.Dex.UICorner
@@ -2175,7 +2175,7 @@ AZY["103"]["Name"] = [[Info]];
 AZY["103"]["BackgroundTransparency"] = 1;
 AZY["103"]["Position"] = UDim2.new(0.7910000085830688, 0, 0.09000000357627869, 0);
 
--- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.BuiltInHax.Scripts.Dex
+-- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.BuiltInHax.Scripts.+
 AZY["104"] = Instance.new("TextButton", AZY["fb"]);
 AZY["104"]["TextWrapped"] = true;
 AZY["104"]["TextXAlignment"] = Enum.TextXAlignment.Left;
