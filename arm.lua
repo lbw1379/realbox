@@ -623,8 +623,8 @@ AZY["52"]["TextSize"] = 11;
 AZY["52"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 AZY["52"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 AZY["52"]["Size"] = UDim2.new(0.2588447332382202, 0, 0.0958060473203659, 0);
-AZY["52"]["Name"] = [[FatesESP]];
-AZY["52"]["Text"] = [[Fates ESP]];
+AZY["52"]["Name"] = [[透视]];
+AZY["52"]["Text"] = [[透视]];
 AZY["52"]["Position"] = UDim2.new(0.04600000008940697, 0, 0.3709999918937683, 0);
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Home.HaxPage.Scripts.FatesESP.UICorner
@@ -2214,8 +2214,8 @@ AZY["108"]["TextSize"] = 13;
 AZY["108"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 AZY["108"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 AZY["108"]["Size"] = UDim2.new(0.2280000001192093, 0, 0.09600000083446503, 0);
-AZY["108"]["Name"] = [[FatesESP]];
-AZY["108"]["Text"] = [[      Fates ESP]];
+AZY["108"]["Name"] = [[ts]];
+AZY["108"]["Text"] = [[      透视]];
 AZY["108"]["Position"] = UDim2.new(0.0331718735396862, 0, 0.18866735696792603, 0);
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.BuiltInHax.Scripts.FatesESP.UICorner
@@ -4502,7 +4502,7 @@ task.spawn(C_51);
 local function C_54()
 	local script = AZY["54"];
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(request({ Url = "https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua", Method = "GET"}).Body)()
+		loadstring(game:HttpGet ("https://raw.githubusercontent.com/lbw1379/realbox/main/ts.lua",))()
 	end)
 end;
 task.spawn(C_54);
