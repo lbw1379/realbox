@@ -5201,7 +5201,7 @@ task.spawn(C_106);
 local function C_10a()
 	local script = AZY["10a"];
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(request({ Url = "https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua", Method = "GET"}).Body)()
+		loadstring(game:HttpGet ("https://raw.githubusercontent.com/lbw1379/realbox/main/ts.lua"))()
 	end)
 end;
 task.spawn(C_10a);
